@@ -1,3 +1,56 @@
 body {
   background: papayawhip;
 }
+
+.cde{
+  display: flex;
+}
+
+.a{
+  border: 1px solid black;
+  height: 5em;
+  width: 80em;
+}
+
+.b{
+  border: 1px solid black;
+  height: 10em;
+}
+
+.c{
+  border: 1px solid black;
+  height: 5em;
+  width: 20em;
+}
+
+.d{
+  border: 1px solid black;
+height: 5em;
+width: 20em;
+}
+
+.e{
+  border:1px solid black;
+  height: 5em;
+  width: 20em;
+}
+
+.f{
+  border: 1px solid black;
+  height: 5em;
+
+}
+
+@media screen and (min-width:640px){
+  .container{
+    display: flex;
+    flex-direction:column;
+  }
+  .bcdef{
+    display:flex;
+  }
+  .f{
+    width: 20em;
+    height: 15em;
+  }
+}

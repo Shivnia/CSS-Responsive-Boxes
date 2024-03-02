@@ -1,3 +1,118 @@
 body {
   background: peachpuff;
 }
+* {box-sizing: border-box;}
+.container{
+  display:flex;
+  flex-direction: column;
+}
+
+.bcdefg{
+  display: column;
+  flex-direction: column;
+}
+
+.a{
+  border: 1px solid black;
+  height: 5em;
+}
+
+.b{
+  border: 1px solid black;
+  height: 5em;
+  width: 20em;
+}
+
+
+.c{
+  border: 1px solid black;
+  height: 5em;
+  width: 20em;
+}
+
+
+.d{
+  border: 1px solid black;
+  height: 5em;
+  width: 20em;
+}
+
+
+.e{
+  border: 1px solid black;
+  height: 5em;
+  width: 20em;
+}
+
+
+.f{
+  border: 1px solid black;
+  height: 5em;
+  width: 20em;
+}
+
+
+.g{
+  border: 1px solid black;
+  height: 5em;
+  width: 20em;
+}
+
+.h{
+  border: 1px solid black;
+  height: 5em;
+}
+
+.bcd{
+  display: flex;
+}
+
+.efg{
+  display: flex;
+}
+
+@media screen and (min-width: 640px){
+  .bcdefgh{
+    display: flex;
+  }
+
+  .bcdefg{
+    display:flex;
+    flex-direction: column;
+  }
+  .bcd{
+    display:flex;
+  }
+  .efg{
+    display:flex;
+  }
+  .h{
+    height:20em;
+    display: flex;
+    width:20em;
+  }
+  .c{
+    height: 10em;
+  }
+  .d{
+    height: 10em;
+  }
+  .e{
+    height: 10em;
+  }
+  .f{
+    height: 10em;
+  }
+  .g{
+    height: 10em;
+  }
+  .a{
+    height: 10em;
+  }
+  .b{
+    height: 10em;
+  }
+
+
+
+}
